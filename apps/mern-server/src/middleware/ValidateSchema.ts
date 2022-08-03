@@ -20,10 +20,11 @@ export const ValidateJoi = (schema: ObjectSchema) => {
 export const Schemas = {
   user: {
     create: Joi.object<IUser>({
-      name: Joi.string().required()
+      username: Joi.string().required(),
+      email: Joi.string().email({ tlds: { allow: false } })
     }),
     update: Joi.object<IUser>({
-      name: Joi.string().required()
+      username: Joi.string().required()
     })
   },
   project: {
