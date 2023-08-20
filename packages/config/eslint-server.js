@@ -16,6 +16,7 @@ module.exports = {
   parserOptions: {
     project: ['./tsconfig.json'],
   },
+  "parser": "babel-eslint",
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],

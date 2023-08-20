@@ -19,6 +19,8 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^14.3.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "@types/cookie-parser": "^1.4.3",
     "@types/jest": "^28.1.6",
     "dotenv": "^16.0.1",
     "esbuild": "^0.14.50",
@@ -31,6 +33,10 @@
     "prettier": "latest",
     "turbo": "latest"
   },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "babel-eslint": "^10.1.0"
+  },
   "lint-staged": {
     "apps/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
@@ -41,8 +47,5 @@
     "*.json": [
       "prettier --write"
     ]
-  },
-  "dependencies": {
-    "chalk": "4.1.0"
   }
 }

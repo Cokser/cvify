@@ -1,0 +1,17 @@
+{
+  "extends": "tsconfig/server.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*",
+    "styles/globals.css"
+  ],
+  "exclude": [
+    "node_modules",
+    ".turbo"
+  ]
+}

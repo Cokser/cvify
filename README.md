@@ -7,9 +7,9 @@ This monorepo project uses a turborepo as a basic architecture. [Yarn](https://c
 ### Apps and Packages
 
 - `server`: a NodeJs/Express app
-- `web`: a Client React app
-- `ui`: a stub React component library shared by both `web` and `server` applications
-- `config`: configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `client`: a Client React app
+- `ui`: a stub React component library shared by both `frontend` and `backend` applications
+- `config`: configurations (`eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
