@@ -1,9 +1,12 @@
 {
-  "extends": "tsconfig/server.json",
+  "extends": "../../packages/tsconfig/server.json",
   "compilerOptions": {
     "baseUrl": ".",
     "noEmit": true,
     "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2015.promise"
+    ],
     "jsx": "react"
   },
   "include": [

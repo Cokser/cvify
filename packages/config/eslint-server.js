@@ -12,11 +12,11 @@ module.exports = {
     'plugin:import/typescript',
     'prettier',
   ],
+  "parser": "@babel/eslint-parser",
   plugins: ['import', '@typescript-eslint'],
   parserOptions: {
     project: ['./tsconfig.json'],
   },
-  "parser": "babel-eslint",
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],

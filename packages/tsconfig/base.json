@@ -11,7 +11,7 @@
     "incremental": true,
     "inlineSources": false,
     "isolatedModules": true,
-    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "lib": ["ES2021", "DOM", "DOM.Iterable", "es2015.promise", "ES2015"],
     "module": "esnext",
     "moduleResolution": "node",
     "noUnusedLocals": false,
