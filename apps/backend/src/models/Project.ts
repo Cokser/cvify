@@ -7,7 +7,7 @@ export interface IProject {
 
 export interface IProjectModel extends IProject, Document {}
 
-const ProjectSchema: Schema = new Schema({
+const ProjectSchema: Schema = new Schema<any>({
     name: {
       type: String,
       required: true,

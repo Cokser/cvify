@@ -11,7 +11,7 @@
     "incremental": true,
     "inlineSources": false,
     "isolatedModules": true,
-    "lib": ["ES2021", "DOM", "DOM.Iterable", "es2015.promise", "ES2015"],
+    "lib": ["ES2021", "esnext", "dom", "DOM.Iterable", "es2015.promise", "ES2015"],
     "module": "esnext",
     "moduleResolution": "node",
     "noUnusedLocals": false,
@@ -20,6 +20,13 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
     "typeRoots": ["../../node_modules/@types"]
   }
 }
