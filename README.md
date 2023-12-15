@@ -1,4 +1,4 @@
-# Make your CV faster, better, stronger
+# Make your CV faster, better, stronger!
 
 ## What's inside?
 
